@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aposentadoria Run</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <h1>Corrida Pela Aposentadoria</h1>
+
+    <main>
+
+        <canvas id="telaJogo" width="960" height="540"></canvas>
+
+    </main>
+
+    <div id="controlesMobile">
+
+        <button id="botaoReiniciar" style="display: none;">REINICIAR</button>
+
+        <div class="grupoMovimento">
+            <button id="botaoEsquerda" aria-label="Mover para esquerda">◀</button>
+            <button id="botaoDireita" aria-label="Mover para direita">▶</button>
+        </div>
+
+        <div class="grupoAcao">
+            <button id="botaoPular">PULAR</button>
+            <button id="botaoAtacar">ATACAR</button>
+        </div>
+
+    </div>
+
+    <script src="jogo.js"></script>
+
+</body>
+
+</html>
